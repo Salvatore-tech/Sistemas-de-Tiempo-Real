@@ -1,0 +1,124 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U formula_str%b		formula_str.adb		dfe9469b NE OO PK IL
+W ada%s			ada.ads			ada.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.concat_9%s	s-conca9.adb		s-conca9.ali
+Z system.img_int%s	s-imgint.adb		s-imgint.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+U formula_str%s		formula_str.ads		c607493a EE NE OO PK IL
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D formula_str.ads	20210313175504 c607493a formula_str%s
+D formula_str.adb	20210313183418 b71adacc formula_str%b
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D system.ads		20200819050648 32a08138 system%s
+D s-conca2.ads		20200819050646 02a0d7d0 system.concat_2%s
+D s-conca9.ads		20200819050646 dc4a3424 system.concat_9%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imgint.ads		20200819050646 02dbe0c2 system.img_int%s
+D s-imgrea.ads		20200819050646 9f9b9792 system.img_real%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+G a e
+G c Z s b [calc_t formula_str 2 13 none]
+G c Z s b [st2_k formula_str 3 13 none]
+G c Z s b [sd1_k formula_str 4 13 none]
+G c Z s b [parar_bombas formula_str 5 14 none]
+G c Z s b [imprimir_file formula_str 6 14 none]
+G c Z s b [sc1_optimal formula_str 8 13 none]
+G c Z s b [sc2_optimal formula_str 9 13 none]
+G c Z s b [comprobar_caudal formula_str 10 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 9|1r6 2r5
+X 6 a-textio.ads
+57K13*Text_IO 727e16 9|1w10 2r9
+64P9*File_Type
+174U14*Set_Output 9|53s10 77s10
+178V13*Standard_Output{64P9} 9|53s21 77s21
+508U14*Put_Line 9|46s7 54s10 56s10 78s10 80s10
+X 8 formula_str.ads
+1K9*formula_str 11l5 11e16 9|4b14 83l5 83t16
+2V13*calc_T{float} 2>21 2>28 9|27b13 30l8 30t14
+2f21 ST1_i{float} 9|27b21 29r21
+2f28 ST2_i{float} 9|27b28 29r29
+3V13*ST2_k{float} 3>19 3>26 3>33 3>38 9|32b13 36l8 36t13
+3f19 ST1_i{float} 9|32b19 34r15
+3f26 SR1_k{float} 9|32b26 34r36
+3f33 T_k{float} 9|32b33 34r74
+3f38 ST4_k{float} 9|32b38 34r80
+4V13*SD1_k{float} 4>19 4>26 9|38b13 42l8 42t13
+4f19 ST2_i{float} 9|38b19 40r39 41r17
+4f26 ST3_k{float} 9|38b26 40r56
+5U14*parar_bombas 5>27 5>32 9|50b14 58l8 58t20
+5f27 ST1{float} 9|50b27 52r10
+5f32 ST2{float} 9|50b32 55r14
+6U14*imprimir_file 6>28 6>43 6>48 6>53 6>58 6>63 6>68 9|44b14 48l8 48t21
+6i28 Idx{integer} 9|44b28 46r16
+6f43 ST1{float} 9|44b43 46r33
+6f48 ST2{float} 9|44b48 46r50
+6f53 ST3{float} 9|44b53 46r67
+6f58 ST4{float} 9|44b58 46r84
+6f63 SR1{float} 9|44b63 47r57
+6f68 SD1{float} 9|44b68 47r74
+8V13*SC1_optimal{float} 8>25 8>32 8>39 8>46 9|60b13 64l8 64t19
+8f25 SR1_k{float} 9|60b25 62r33
+8f32 ST1_k{float} 9|60b32
+8f39 ST3_k{float} 9|60b39
+8f46 ST4_K{float} 9|60b46 62r61
+9V13*SC2_optimal{float} 9>25 9>32 9|66b13 70l8 70t19
+9f25 ST1_k{float} 9|66b25
+9f32 ST3_k{float} 9|66b32 68r68
+10U14*comprobar_caudal 10>31 10>38 9|74b14 82l8 82t24
+10f31 SC1_o{float} 9|74b31 76r10 76r33 78r82
+10f38 SC2_o{float} 9|74b38 79r14 79r37 80r83
+X 9 formula_str.adb
+5f4 Beta{float} 34r23 62r20
+6f4 Leq{float} 34r30 62r27
+7f4 H{float} 34r69 62r48
+8f4 c{float} 34r44 34r89 62r16 62r43
+9f4 Cp{float} 34r56 35r22 62r74
+10f4 rho{float} 34r61 35r27 62r79
+11f4 SC1{float} 34r50 35r16 47r23
+12f4 SC2{float} 40r72 41r25 47r40
+13f4 ST1_ini{float}
+14f4 ST2_ini{float}
+15f4 ST2_opt{float} 16r31 17r40 63r75 68r49 69r35
+16f4 ST1_opt{float} 17r30 63r85
+17f4 T_opt{float} 62r53
+18f4 SD1_opt{float} 68r16
+19f4 Temp_cri{float} 52r17 55r21
+20f4 SC1_inf_opt{float} 76r18
+21f4 SC1_sup_opt{float} 76r41
+22f4 SC2_inf_opt{float} 79r22
+23f4 SC2_sup_opt{float} 79r45
+

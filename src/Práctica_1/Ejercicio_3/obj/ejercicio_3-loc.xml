@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project>
+    <vfs_file />
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\Users\Salva\OneDrive\Desktop\Relacion_2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 11" line=" 7" >
+      <vfs_project>C:\GNAT\2020\bin\Relacion_3\relacion_3.gpr</vfs_project>
+      <vfs_file>C:\GNAT\2020\bin\Relacion_3\src\ejercicio_1.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\Relacion_3\src\input.txt</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project />
+      <vfs_file>C:\GNAT\2020\bin\Pratica_1\Ejercicio_3\src\main.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>

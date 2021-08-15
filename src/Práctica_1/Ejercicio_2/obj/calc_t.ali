@@ -1,0 +1,21 @@
+V "GNAT Lib v2020"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U calc_t%b		calc_t.adb		d32bb14f NE OO SU
+
+D calc_t.adb		20210309172654 d32bb14f calc_t%b
+D system.ads		20200819050648 32a08138 system%s
+G a e
+G c Z b b [calc_t standard 1 10 none]
+X 1 calc_t.adb
+1V10*calc_T{float} 1b10 1>18 1>25 4l5 4t11
+1f18 ST1_i{float} 3r12
+1f25 ST2_i{float} 3r20
+

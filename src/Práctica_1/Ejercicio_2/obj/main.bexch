@@ -1,0 +1,23 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+C:\GNAT\2020\bin\Pratica_1\ejercicio_2.gpr
+20210309173704 bfd1b1316a7780145e6c93c504e032a9
+[BOUND OBJECT FILES]
+C:\GNAT\2020\bin\Pratica_1\obj\formula_str.o
+C:\GNAT\2020\bin\Pratica_1\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LC:\GNAT\2020\bin\Pratica_1\obj\
+-LC:\GNAT\2020\bin\Pratica_1\obj\
+-LC:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/
+-static
+-static-libgcc
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnarl.a
+C:/gnat/2020/lib/gcc/x86_64-pc-mingw32/9.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

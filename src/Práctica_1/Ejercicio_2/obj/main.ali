@@ -1,0 +1,173 @@
+V "GNAT Lib v2020"
+M P W=b
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_DEFAULT_INITIALIZATION
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_PRAGMAS
+
+U main%b		main.adb		46db03c7 NE OO SU
+W ada%s			ada.ads			ada.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.tags%s		a-tags.adb		a-tags.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W formula_str%s		formula_str.adb		formula_str.ali
+Z system.concat_2%s	s-conca2.adb		s-conca2.ali
+Z system.img_real%s	s-imgrea.adb		s-imgrea.ali
+
+D ada.ads		20200819050644 76789da1 ada%s
+D a-except.ads		20200819050644 a7106115 ada.exceptions%s
+D a-flteio.ads		20200819050644 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20200819050644 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20200819050644 e4a01f64 ada.io_exceptions%s
+D a-reatim.ads		20200819050642 0240fc73 ada.real_time%s
+D a-stream.ads		20200819050644 119b8fb3 ada.streams%s
+D a-tags.ads		20200819050644 edddc8f0 ada.tags%s
+D a-textio.ads		20200819050644 aef4d56d ada.text_io%s
+D a-tiflio.ads		20200819050644 bf196650 ada.text_io.float_io%s
+D a-tiinio.ads		20200819050644 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20200819050644 0e9b276f ada.unchecked_conversion%s
+D formula_str.ads	20210313175504 c607493a formula_str%s
+D interfac.ads		20200819050646 5ab55268 interfaces%s
+D i-c.ads		20200819050646 c624fa43 interfaces.c%s
+D i-cstrin.ads		20200819050646 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20200819050646 e53d8b8e interfaces.c_streams%s
+D main.adb		20210313184212 3ba9ade7 main%b
+D system.ads		20200819050648 32a08138 system%s
+D s-atacco.ads		20200819050646 4c36d12f system.address_to_access_conversions%s
+D s-conca2.ads		20200819050646 02a0d7d0 system.concat_2%s
+D s-crtl.ads		20200819050646 0ebbdb71 system.crtl%s
+D s-exctab.ads		20200819050646 54135002 system.exception_table%s
+D s-ficobl.ads		20200819050646 078245e4 system.file_control_block%s
+D s-imgrea.ads		20200819050646 9f9b9792 system.img_real%s
+D s-multip.ads		20200819050646 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20200819050642 97504df8 system.os_interface%s
+D s-parame.ads		20200819050648 4752c4cb system.parameters%s
+D s-secsta.ads		20200819050648 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20200819050648 a7318a92 system.soft_links%s
+D s-stache.ads		20200819050648 a37c21ec system.stack_checking%s
+D s-stausa.ads		20200819050648 017a0a05 system.stack_usage%s
+D s-stalib.ads		20200819050648 6b7a13f2 system.standard_library%s
+D s-stoele.ads		20200819050648 2dc34a04 system.storage_elements%s
+D s-tasinf.ads		20200819050642 601f6b72 system.task_info%s
+D s-taspri.ads		20200819050642 6c1d93d4 system.task_primitives%s
+D s-taprop.ads		20200819050642 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20200819050642 88fba9ad system.tasking%s
+D s-traent.ads		20200819050648 005bf670 system.traceback_entries%s
+D s-unstyp.ads		20200819050648 5ecf7212 system.unsigned_types%s
+D s-wchcon.ads		20200819050648 1b7d22d2 system.wch_con%s
+D s-win32.ads		20200819050648 15ac53fb system.win32%s
+G a e
+G c Z b b [main standard 12 11 none]
+G r c none [main standard 12 11 none] [calc_t formula_str 2 13 none]
+G r c none [main standard 12 11 none] [st2_k formula_str 3 13 none]
+G r c none [main standard 12 11 none] [sd1_k formula_str 4 13 none]
+G r c none [main standard 12 11 none] [imprimir_file formula_str 6 14 none]
+G r c none [main standard 12 11 none] [parar_bombas formula_str 5 14 none]
+G r c none [main standard 12 11 none] [sc1_optimal formula_str 8 13 none]
+G r c none [main standard 12 11 none] [sc2_optimal formula_str 9 13 none]
+G r c none [main standard 12 11 none] [comprobar_caudal formula_str 10 14 none]
+X 1 ada.ads
+16K9*Ada 20e8 18|1r6 2r5 3r6 4r5 5r6 6r5 7r6 8r5
+X 3 a-flteio.ads
+20K13*Float_Text_IO[10|46] 18|5w10 6r9
+X 4 a-inteio.ads
+18K13*Integer_Text_IO[11|46] 18|3w10 4r9
+X 6 a-reatim.ads
+39K13*Real_Time 185e18 18|7w10 8r9
+49O9*Time<duration> 18|14r19
+54O9*Time_Span<duration> 18|15r11
+61V13*Clock{49O9} 18|44s19 58s20
+71V14*"-"{54O9} 18|59s21
+105V14*">"{boolean} 18|59r30
+119V13*Milliseconds{54O9} 18|15s24
+X 9 a-textio.ads
+57K13*Text_IO 727e16 18|1w10 2r9
+64P9*File_Type 18|13r39
+66n23*In_File{66E9} 18|34r20
+66n32*Out_File{66E9} 18|35r23 36r23
+99U14*Create 18|35s4 36s4
+114U14*Open 18|34s4
+129U14*Close 18|104s4 105s4 106s4
+174U14*Set_Output 18|37s4 63s13 72s13 87s10 97s10
+178V13*Standard_Output{64P9} 18|63s24 87s21
+264U14*New_Line 18|41s10
+270U14*Skip_Line 18|42s10
+279V13*End_Of_Line{boolean} 18|40s10
+312V13*End_Of_File{boolean} 18|39s14
+508U14*Put_Line 18|60s13 94s10 96s10 98s10
+X 10 a-tiflio.ads
+52U14*Get 18|46s10[3|20] 47s10[3|20] 48s10[3|20]
+X 11 a-tiinio.ads
+51U14*Get 18|45s10[4|18]
+X 13 formula_str.ads
+1K9*formula_str 11e16 18|9w6 10r5
+2V13*calc_T{float} 18|52s38
+2f21 ST1_i{float} 18|52r45
+2f28 ST2_i{float} 18|52r67
+3V13*ST2_k{float} 18|50s23
+3f19 ST1_i{float} 18|50r29
+3f26 SR1_k{float} 18|51r29
+3f33 T_k{float} 18|52r29
+3f38 ST4_k{float} 18|53r29
+4V13*SD1_k{float} 18|57s21
+4f19 ST2_i{float} 18|57r27
+4f26 ST3_k{float} 18|57r49
+5U14*parar_bombas 18|71s13
+5f27 ST1{float} 18|71r26
+5f32 ST2{float} 18|71r44
+6U14*imprimir_file 18|64s13 73s13
+6i28 Idx{integer} 18|64r27 73r27
+6f43 ST1{float} 18|65r27 74r27
+6f48 ST2{float} 18|66r27 75r27
+6f53 ST3{float} 18|67r27 76r27
+6f58 ST4{float} 18|68r27 77r27
+6f63 SR1{float} 18|69r27 78r27
+6f68 SD1{float} 18|70r27 79r27
+8V13*SC1_optimal{float} 18|88s25
+8f25 SR1_k{float} 18|88r37
+8f32 ST1_k{float} 18|89r43
+8f39 ST3_k{float} 18|90r43
+8f46 ST4_K{float} 18|91r37
+9V13*SC2_optimal{float} 18|92s25
+9f25 ST1_k{float} 18|92r37
+9f32 ST3_k{float} 18|92r57
+10U14*comprobar_caudal 18|95s10
+10f31 SC1_o{float} 18|95r27
+10f38 SC2_o{float} 18|95r49
+X 18 main.adb
+12U11*Main 12b11 107l5 107t9
+13p4 Input_arc{9|64P9} 34m9 34r9 39r26 40r22 42r20 45r14 46r14 47r14 48r14
+. 104m10 104r10
+13p15 Output_arc{9|64P9} 35m11 35r11 37r15 72r24 105m10 105r10
+13p27 Output_opt{9|64P9} 36m11 36r11 97r21 106m10 106r10
+14o4 Start{6|49O9} 44m10 59r23
+14o11 Finish{6|49O9} 58m10 59r14
+15o4 Frame{6|54O9} 59r32
+16f4 var_ST2_k{float} 50m10 55r23 66r34 71r51 75r34 83r25
+17f4 var_ST1_k{float} 55m10 65r34 71r33 74r34 84r25 89r52 92r46
+18f4 var_ST1_ini{float} 33m4 50r38 52r54 84m10
+19f4 var_ST2_ini{float} 52r76 57r36 83m10
+20f4 var_SD1{float} 57m10 70r34 79r34
+21f4 var_SC1_opt{float} 88m10 94r31 95r36 98r31
+22f4 var_SC2_opt{float} 92m10 94r62 95r58 98r63
+23R9 Riga 29e17 30r17
+25i10 Idx{integer} 45m37 64r46 73r46
+26f10 SR1{float} 46m37 51r50 69r46 78r46 88r58
+27f10 ST4{float} 47m37 53r50 68r46 77r46 91r58
+28f10 ST3{float} 48m37 57r70 67r46 76r46 90r64 92r78
+30r4 current_row{23R9} 45m25 45r25 46m25 46r25 47m25 47r25 48m25 48r25 51r38
+. 53r38 57r58 64r34 67r34 68r34 69r34 73r34 76r34 77r34 78r34 88r46 90r52
+. 91r46 92r66
+X 32 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+
